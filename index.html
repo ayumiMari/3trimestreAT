@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
-    <title>Fiap Kids</title>
+    <title>Brinca & Rebrinca</title>
     <!-- Inclua a biblioteca Bootstrap CSS -->
     <link
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -12,27 +12,20 @@
 </head>
 <body>
     <nav class="navbar text-white bg-light navbar-expand-lg bg-body-tertiary shadow p-3 mb-5 bg-body-tertiary rounded ">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
               <img src="https://static.wixstatic.com/media/ac8b3a_ae2f7f375b374ff78a21bb4e1f6c3c1d~mv2.png/v1/fill/w_422,h_424,al_c,q_95,enc_auto/logo%20novo%203.png" alt="Logo" width="130" height="95" class="d-inline-block align-text-top">
             </a>
                 <div class="container-fluid">
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      <li class="nav-item nav-tabs">
+                        <a class="nav-link active" aria-current="page" href="index.html">Início</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Cadastrar</a>
+                      <li class="nav-item nav-tabs">
+                        <a class="nav-link" href="cadastroUsuario.html">Cadastrar</a>
                       </li>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                      <li class="nav-item nav-tabs">
+                        <a class="nav-link" href="produtoBrinquedo.html">Produtos</a>
                       </li>
                     </ul>
                   </div>
@@ -83,6 +76,21 @@
                 <span class="sr-only">Próximo</span>
               </a>
             </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="https://images.pexels.com/photos/3661197/pexels-photo-3661197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card with stretched links</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">
+                  <a href="#" class="stretched-link text-danger" style="position: relative;">Stretched link will not work here, because <code>position: relative</code> is added to the link</a>
+                </p>
+                <p class="card-text bg-body-tertiary" style="transform: rotate(0);">
+                  This <a href="#" class="text-warning stretched-link">stretched link</a> will only be spread over the <code>p</code>-tag, because a transform is applied to it.
+                </p>
+              </div>
+            </div>
+            
 
     <!-- Inclua a biblioteca Bootstrap Js e Jquery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

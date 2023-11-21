@@ -125,7 +125,7 @@ app.get("/cadastrousuario", async (req, res) => {
 });
 
 app.get("/cadastroprodutoBrinquedo", async (req, res) => {
-  res.sendFile(__dirname + "/cadastroprodutoBrinquedo");
+  res.sendFile(__dirname + "/");
 });
 
 //rota raiz - inicio do inw por causa da pág html
