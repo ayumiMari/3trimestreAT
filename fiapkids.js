@@ -121,11 +121,11 @@ app.post("/cadastroprodutoBrinquedo", async (req, res) => {
 });
 
 app.get("/cadastrousuario", async (req, res) => {
-  res.sendFile(__dirname + "/cadastrousuario");
+  res.sendFile(__dirname + "/cadastrousuario.html");
 });
 
 app.get("/cadastroprodutoBrinquedo", async (req, res) => {
-  res.sendFile(__dirname + "/");
+  res.sendFile(__dirname + "/cadastroprodutoBinquedo.html");
 });
 
 //rota raiz - inicio do inw por causa da pág html
