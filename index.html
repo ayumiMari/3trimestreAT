@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
     <title>Brinca & Rebrinca</title>
     <!-- Inclua a biblioteca Bootstrap CSS -->
     <link
@@ -33,7 +36,6 @@
               </nav>
 
               <br>
-
               <!--Carrossel-->
               <style>
                 /* Estilos personalizados */
@@ -77,19 +79,53 @@
               </a>
             </div>
 
-            <div class="card border" style="width: 18rem;">
-              <img src="https://images.pexels.com/photos/3661197/pexels-photo-3661197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card with stretched links</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <p class="card-text">
-                  <a href="#" class="stretched-link text-danger" style="position: relative;">Stretched link will not work here, because <code>position: relative</code> is added to the link</a>
-                </p>
-                <p class="card-text bg-body-tertiary" style="transform: rotate(0);">
-                  This <a href="#" class="text-warning stretched-link">stretched link</a> will only be spread over the <code>p</code>-tag, because a transform is applied to it.
-                </p>
+            <br>
+            
+            <h2 style="text-align: center; font-family: 'Raleway', sans-serif;">Produtos</h2>
+            <!--Cards com imagem-->
+          
+            <div class="card-container row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card h-100" style="margin: 20px;">
+                  <img src="https://images.pexels.com/photos/3661197/pexels-photo-3661197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Kit África</h5>
+                    <p class="card-text">Animais de madeira da África são esculturas representando a vida selvagem africana. Feitas de madeira natural, são brinquedos que ensinam sobre animais como leões e elefantes, promovendo diversão e consciência ambiental.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="margin: 20px;">
+                  <img src="https://images.pexels.com/photos/3661353/pexels-photo-3661353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Kit completo</h5>
+                    <p class="card-text">Conjuntos de animais de madeira da África, com blocos de montar, ensinam sobre a vida selvagem enquanto incentivam a criatividade das crianças. Feitos de madeira natural, esses conjuntos promovem diversão, aprendizado e consciência ambiental.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100" style="margin: 20px;">
+                  <img src="https://images.pexels.com/photos/3661243/pexels-photo-3661243.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Blocos de montar</h5>
+                    <p class="card-text">Os blocos de montar de madeira são brinquedos clássicos que proporcionam diversão criativa e ajudam no desenvolvimento de habilidades motoras e cognitivas das crianças.</p>
+                  </div>
+                </div>
               </div>
             </div>
+<!--Footer-->
+<br>
+            <div class="container">
+              <footer class="py-3 my-4">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                  <li class="nav-item"><a href="/" class="nav-link px-2 text-body-secondary">Início</a></li>
+                  <li class="nav-item"><a href="/cadastrousuario" class="nav-link px-2 text-body-secondary">Cadastrar</a></li>
+                  <li class="nav-item"><a href="/cadastroprodutoBrinquedo" class="nav-link px-2 text-body-secondary">Produtos</a></li>
+                </ul>
+                <p class="text-center text-body-secondary">© 2023 Brinca & Rebrinca Company, Inc</p>
+              </footer>
+            </div>
+            
             
 
     <!-- Inclua a biblioteca Bootstrap Js e Jquery -->
